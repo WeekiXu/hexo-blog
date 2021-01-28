@@ -1,0 +1,47 @@
+# main menu navigation
+menu:
+  Home: /
+  About: /about
+  Archive: /archives
+
+widgets:
+  - tag
+  - archive
+  - recent_posts
+  - category
+
+# social config
+social:
+  zhihu:
+  twitter: /
+  facebook: /
+  linkedin:
+  instagram: /
+  github: haojen
+
+user:
+  name: WeekiXu
+  avatar: /images/avatar.jpg
+  location: China, Beijing
+  description: 资深程序员
+
+# documents: https://github.com/utterance/utterances
+# API config: https://utteranc.es/
+comment_utteranc:
+  enable: true
+  repo: Haojen/Claudia-theme-blog # your blog repo
+
+# dark
+# light
+# user-can-set
+appearance: dark # Default value is auto
+
+display_updated: true
+
+local_search: 
+  enable: true
+  # if auto, trigger search by changing input
+  # if manual, trigger search by pressing enter key or search button
+  trigger: auto
+  # show top n results per article, show all results by setting to -1
+  top_n_per_article: 1
